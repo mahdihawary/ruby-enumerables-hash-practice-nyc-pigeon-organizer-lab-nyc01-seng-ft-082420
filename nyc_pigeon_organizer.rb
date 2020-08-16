@@ -1,4 +1,4 @@
-require 'pry'
+
 def nyc_pigeon_organizer(data)
   new_data = {}
   data.each do |key,value|
@@ -19,5 +19,5 @@ def nyc_pigeon_organizer(data)
     end
     
   end
-  
+  new_data
 end
